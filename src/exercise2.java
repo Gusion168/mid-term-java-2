@@ -30,6 +30,10 @@ class Square extends Rectangle {
  class Main {
     public static void main(String[] args) {
         // Example usage
+        Rectangle rectangle = new Rectangle(10,5);
+        System.out.println("Area of the Rectangle : " + rectangle.getArea() );
+        System.out.println("Perimeter of the Rectangle: " + rectangle.getPerimeter());
+
         Square square = new Square(5.0);
 
         // Accessing methods from Rectangle class
